@@ -1,34 +1,16 @@
 @media screen and (max-width: 1100px) {
-
     .container {
         width: 950px !important;
-    }
-
-    .row {
-        flex-direction: column;
-        padding: 10px;
-        justify-content: center;
-    }
-
-    .col-3 {
-        width: 100%;
-    }
-
-    .col-6 {
-        width: 100%;
     }
 }
 
 @media screen and (max-width: 900px) {
-
     .container {
         width: 850px !important;
     }
-
 }
 
 @media screen and (max-width: 750px) {
-
     .container {
         width: 650px !important;
     }
@@ -36,8 +18,26 @@
     .background_custom_design {
         display: none;
     }
+}
 
-    .row {
+@media screen and (max-width: 650px) {
+    #mobile-menu {
+        display: flex !important;
+    }
+
+    .container {
+        width: 450px !important;
+    }
+
+    #left-sidebar {
+        display: none;
+    }
+
+    #desktop-menu {
+        display: none;
+    }
+
+    .row-container {
         flex-direction: column;
     }
 
@@ -48,12 +48,32 @@
     .col-6 {
         width: 100% !important;
     }
+
+    .reactions {
+        width: 300px !important;
+        right: 6px !important;
+        top: 53px !important;
+        box-shadow: 0 0 5px 0 #0000002b;
+        height: 47px !important;
+    }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
 
     .container {
         width: 350px !important;
+    }
+
+    #messenger_user_details {
+        display: none;
+    }
+
+    #messenger_navbar {
+        padding: 0 20px 0 40px !important;
+    }
+
+    #messenger_chat {
+        width: 100% !important;
     }
 
     .container_auth {

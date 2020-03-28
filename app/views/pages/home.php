@@ -1,170 +1,98 @@
 <?php
 include_once URL_APP . '/views/assets/head.php';
 include_once URL_APP . '/views/assets/navbar.php';
+
+
+
 ?>
 
-<div id="cover-image"></div>
-
 <div class="container">
-    <div class="row">
-        <div class="col-3 left-sidebar"></div>
-        <div class="col-6 display-posts-container">
-            <div id="display-posts">
-
-                <div class="post-design">
-                    <div class="post-header">
-                        <div class="header-image">
-                            <img src="https://picsum.photos/60/60" class="header-image-sub">
-                        </div>
-                        <div class="header-data">
-                            <span>Kismu</span>
-                            <sub>10 min</sub>
-                        </div>
-                        <div class="header-likes"></div>
-                    </div>
-                    <div class="post-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto laboriosam, possimus provident maxime laudantium voluptates enim iste vitae pariatur quibusdam similique repellendus eum quas soluta accusantium rerum magni numquam fuga.</p>
-                        <img src="https://picsum.photos/800/400" class="body-image-post">
-                    </div>
-
-
-                    <div class="post-footer">
-                        <div class="likes likeButton">
-                            <a href=""><i class="far fa-thumbs-up"></i> Like</a>
-
-                            <div class="reactions">
-                                <a href="" class="reaction-item">
-                                    <img src="<?php echo URL_PROJECT . '/img/reactions/like.gif' ?>" alt="">
-                                </a>
-                                <a href="" class="reaction-item">
-                                    <img src="<?php echo URL_PROJECT . '/img/reactions/love.gif' ?>" alt="">
-                                </a>
-                                <a href="" class="reaction-item">
-                                    <img src="<?php echo URL_PROJECT . '/img/reactions/sad.gif' ?>" alt="">
-                                </a>
-                                <a href="" class="reaction-item">
-                                    <img src="<?php echo URL_PROJECT . '/img/reactions/sorprendido.gif' ?>" alt="">
-                                </a>
-                                <a href="" class="reaction-item">
-                                    <img src="<?php echo URL_PROJECT . '/img/reactions/risa.gif' ?>" alt="">
-                                </a>
-                                <a href="" class="reaction-item">
-                                    <img src="<?php echo URL_PROJECT . '/img/reactions/angry.gif' ?>" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="commnet">
-                            <a href=""><i class="far fa-comment-alt"></i> Comment</a>
-                        </div>
-                    </div>
-
-                    <hr>
-
-                    <div class="footer-reactions">
-                        <div class="reactions-count-section">
-                            <a href="" class="reaction-item-sub">
-                                <img src="<?php echo URL_PROJECT . '/img/reactions-emojis/like.png' ?>" alt="">
-                            </a>
-                            <a href="" class="reaction-item-sub">
-                                <img src="<?php echo URL_PROJECT . '/img/reactions-emojis/love.png' ?>" alt="">
-                            </a>
-                            <a href="" class="reaction-item-sub">
-                                <img src="<?php echo URL_PROJECT . '/img/reactions-emojis/sad.png' ?>" alt="">
-                            </a>
-                            <a href="" class="reaction-item-sub">
-                                <img src="<?php echo URL_PROJECT . '/img/reactions-emojis/wow.png' ?>" alt="">
-                            </a>
-                            <a href="" class="reaction-item-sub">
-                                <img src="<?php echo URL_PROJECT . '/img/reactions-emojis/haha.png' ?>" alt="">
-                            </a>
-                            <a href="" class="reaction-item-sub">
-                                <img src="<?php echo URL_PROJECT . '/img/reactions-emojis/angry.png' ?>" alt="">
-                            </a>
-                        </div>
-                        <p class="m-0">24</p>
-                    </div>
-                </div>
-
-                <div class="post-design">
-                    <div class="post-header">
-                        <div class="header-image">
-                            <img src="https://picsum.photos/60/60" class="header-image-sub">
-                        </div>
-                        <div class="header-data">
-                            <span>Kismu</span>
-                            <sub>10 min</sub>
-                        </div>
-                        <div class="header-likes"></div>
-                    </div>
-                    <div class="post-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto laboriosam, possimus provident maxime laudantium voluptates enim iste vitae pariatur quibusdam similique repellendus eum quas soluta accusantium rerum magni numquam fuga.</p>
-                        <img src="https://picsum.photos/800/400" class="body-image-post">
-                    </div>
-
-
-                    <div class="post-footer">
-                        <div class="likes likeButton">
-                            <a href=""><i class="far fa-thumbs-up"></i> Like</a>
-
-                            <div class="reactions">
-                                <a href="" class="reaction-item">
-                                    <img src="<?php echo URL_PROJECT . '/img/reactions/like.gif' ?>" alt="">
-                                </a>
-                                <a href="" class="reaction-item">
-                                    <img src="<?php echo URL_PROJECT . '/img/reactions/love.gif' ?>" alt="">
-                                </a>
-                                <a href="" class="reaction-item">
-                                    <img src="<?php echo URL_PROJECT . '/img/reactions/sad.gif' ?>" alt="">
-                                </a>
-                                <a href="" class="reaction-item">
-                                    <img src="<?php echo URL_PROJECT . '/img/reactions/sorprendido.gif' ?>" alt="">
-                                </a>
-                                <a href="" class="reaction-item">
-                                    <img src="<?php echo URL_PROJECT . '/img/reactions/risa.gif' ?>" alt="">
-                                </a>
-                                <a href="" class="reaction-item">
-                                    <img src="<?php echo URL_PROJECT . '/img/reactions/angry.gif' ?>" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="commnet">
-                            <a href=""><i class="far fa-comment-alt"></i> Comment</a>
-                        </div>
-                    </div>
-
-                    <hr>
-
-                    <div class="footer-reactions">
-                        <div class="reactions-count-section">
-                            <a href="" class="reaction-item-sub">
-                                <img src="<?php echo URL_PROJECT . '/img/reactions-emojis/like.png' ?>" alt="">
-                            </a>
-                            <a href="" class="reaction-item-sub">
-                                <img src="<?php echo URL_PROJECT . '/img/reactions-emojis/love.png' ?>" alt="">
-                            </a>
-                            <a href="" class="reaction-item-sub">
-                                <img src="<?php echo URL_PROJECT . '/img/reactions-emojis/sad.png' ?>" alt="">
-                            </a>
-                            <a href="" class="reaction-item-sub">
-                                <img src="<?php echo URL_PROJECT . '/img/reactions-emojis/wow.png' ?>" alt="">
-                            </a>
-                            <a href="" class="reaction-item-sub">
-                                <img src="<?php echo URL_PROJECT . '/img/reactions-emojis/haha.png' ?>" alt="">
-                            </a>
-                            <a href="" class="reaction-item-sub">
-                                <img src="<?php echo URL_PROJECT . '/img/reactions-emojis/angry.png' ?>" alt="">
-                            </a>
-                        </div>
-                        <p class="m-0">24</p>
-                    </div>
-                </div>
-
+    <div class="row-container">
+        <div class="col-3" id="left-sidebar">
+            <!-- Weather component  -->
+            <div id="weather_witget">
             </div>
+            <!-- Weather component  -->
         </div>
-        <div class="col-3 right-sidebar"></div>
+        <div class="col-6" id="main-content">
+            <div id="shadow_content"></div>
+            <div class="public_post">
+                <div id="close_post">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </div>
+                <div class="tabs">
+                    <div id="post_tab">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-3">
+                            <path d="M12 20h9"></path>
+                            <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                        </svg>
+                        <span>Publish</span>
+                    </div>
+                    <div class="other_tabs">
+                        <div id="video_tab">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-video">
+                                <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                                <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+                            </svg>
+                            <span>Video</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tabs_content">
+
+                    <div id="publish_content">
+                        <form action="<?php echo URL_PROJECT ?>" id="post_publish_content" method="POST" enctype="multipart/form-data">
+                            <div class="content_publish_post">
+                                <div class="image_public_post">
+                                    <img src="https://picsum.photos/60/60" class="image_profile_publish">
+                                </div>
+
+
+                                <div class="input_content_text">
+                                    <textarea name="public_post" id="public_post" placeholder="Write something about you..."></textarea>
+                                </div>
+                            </div>
+
+                            <div class="footer_publish_post">
+                                <div class="media_post">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-camera">
+                                        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                                        <circle cx="12" cy="13" r="4"></circle>
+                                    </svg>
+                                    <span>Media</span>
+                                    <input type="file" name="upload_photos" id="upload_photos">
+                                </div>
+                            </div>
+
+                            <div id="more_options_post">
+                                <div class="buttons">
+                                    <button id="more_button">
+                                        <span>More</span>
+                                        <div id="more_information">
+                                            <div class="item_more"><span>Create group</span></div>
+                                        </div>
+                                    </button>
+                                    <button id="publish_post" class="is_disabled">Publish</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div id="show_posts"></div>
+
+            
+        </div>
+        <div class="col-3" id="right-sidebar"></div>
     </div>
 </div>
-
 
 <?php
 include_once URL_APP . '/views/assets/footer.php';
